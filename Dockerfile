@@ -36,8 +36,8 @@ ENV TORCH_CUDA_ARCH_LIST="${TORCH_CUDA_ARCH_LIST}"
 ENV NVIDIA_VISIBLE_DEVICES="all"
 
 
-COPY wget_dataset.sh .
-COPY our_LIP_JPPNet .
+#COPY wget_dataset.sh .
+#COPY our_LIP_JPPNet .
 
 
 CMD /bin/bash
